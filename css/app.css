@@ -1,0 +1,82 @@
+body {
+	font: 14px/24px Helvetica, sans-serif;
+	background-color: #edeff0;
+	color: #657380;
+	margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 300;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.payment-container {
+	background-color: #fff;
+	padding: 30px;
+	margin: 40px auto 0 auto;
+	width: 100%;
+	max-width: 400px;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+}
+
+.payment-container .header {
+	margin-top: 0;
+}
+
+.payment-container form {
+	padding: 20px 0;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form label input,
+form label select {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 10px;
+	height: 40px;
+	border-radius: 3px;
+	border: 1px solid #ddd;
+	font-size: inherit;
+	color: inherit;
+}
+
+form input[type="submit"],
+form select {
+	border: 1px solid #ddd;
+	padding: 10px 20px;
+	font-size: inherit;
+	color: inherit;
+	background-color: #efefef;
+	border-radius: 3px;
+	cursor: pointer;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+form .split input {
+	width: calc(50% - 5px);
+	float: left;
+}
+
+form .split input:first-of-type {
+	margin-right: 10px;
+}
